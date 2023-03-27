@@ -53,7 +53,7 @@ void bfs(vector<int>adj[],int &node,vector<int>&vis,int &count)
         return res;
     }
 
-};
+};  
  
  // #define int long long
  void solve()
