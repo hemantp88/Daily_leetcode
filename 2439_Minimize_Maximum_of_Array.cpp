@@ -48,15 +48,24 @@ bool f(vector<int>&nums,int mid)
             return ans;
     }
 };
+// ceil fxn optimisation
+
+    class Solution {
+public:
+    int minimizeArrayValue(vector<int>& nums) {
+     long long int preSum=0,res=INT_MIN,n=nums.size();
+     for(int i=0;i<n;i++)
+     {
+         preSum+=nums[i];
+         res=max(res,(preSum+i)/(i+1));
+     } 
+     return res;  
+    }
+};
 
 int32_t main()
 {
     cin.tie(0)->sync_with_stdio(false);
-    int t=1;
-    cin>>t;
-    while(t--)
-    {
-       
-    }
+
     return 0;
 }
