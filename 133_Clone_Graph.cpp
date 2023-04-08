@@ -1,4 +1,4 @@
-/*
+
 // Definition for a Node.
 class Node {
 public:
@@ -17,7 +17,7 @@ public:
         neighbors = _neighbors;
     }
 };
-*/
+
 
 // class Solution {
 // public:
@@ -26,6 +26,9 @@ public:
         
 //     }
 // };
+
+#include<bits/stdc++.h>
+using namespace std;
 
 
 class Solution {
@@ -59,3 +62,20 @@ class Solution {
         return dfs(node,mp);
     }
 };
+// #define int long long
+void solve()
+{
+ 
+}
+
+int32_t main()
+{
+    cin.tie(0)->sync_with_stdio(false);
+    int t=1;
+    cin>>t;
+    while(t--)
+    {
+        solve();
+    }
+    return 0;
+}
