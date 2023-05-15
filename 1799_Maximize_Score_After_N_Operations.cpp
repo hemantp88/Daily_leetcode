@@ -34,7 +34,7 @@ public:
 
         return func(nums, 1, 0, dp, gcd,n,m);
     }
-};
+};  
 
 int32_t main()
 {
